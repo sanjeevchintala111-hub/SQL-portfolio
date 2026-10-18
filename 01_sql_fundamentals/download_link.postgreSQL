@@ -1,0 +1,31 @@
+## PostgreSQL Setup Guide
+
+PostgreSQL is a free, open-source relational database management system used to store, manage, and analyse data using SQL.
+
+### Download
+
+- **Windows installer:** https://www.postgresql.org/download/windows/
+- **Official website:** https://www.postgresql.org/
+
+### Installation steps
+
+1. Download the Windows installer from the official website.
+2. Install PostgreSQL Server and pgAdmin 4.
+3. Create a password for the `postgres` user.
+4. Open pgAdmin 4 and connect to your local server.
+5. Create a database and import your CSV dataset.
+6. Open the Query Tool and execute your SQL queries.
+
+### Verify the installation
+
+```sql
+SELECT version();
+```
+
+This displays your installed PostgreSQL version.
+
+### Start practising
+
+Use your `ecommerce_orders` dataset to practise SQL fundamentals, filtering, aggregation, joins, and advanced data analysis.
+
+**Tools used:** PostgreSQL, pgAdmin 4, GitHub.
